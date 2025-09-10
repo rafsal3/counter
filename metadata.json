@@ -1,0 +1,5 @@
+{
+  "name": "Minimalistic Counter App",
+  "description": "A sleek, minimalistic counter PWA with keyboard controls, sound effects, and persistent storage. Manage multiple counters with customizable settings for a tailored counting experience.",
+  "requestFramePermissions": []
+}
