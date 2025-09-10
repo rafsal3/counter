@@ -1,8 +1,9 @@
+
 import React, { useCallback } from 'react';
-import { Counter as CounterType } from '../types';
-import OdometerDisplay from './OdometerDisplay';
-import { MinusIcon, PlusIcon, SettingsIcon, TrashIcon, BackIcon } from './icons';
-import { useSound } from '../hooks/useSound';
+import { Counter as CounterType } from '../types.ts';
+import OdometerDisplay from './OdometerDisplay.tsx';
+import { MinusIcon, PlusIcon, SettingsIcon, TrashIcon, BackIcon } from './icons.tsx';
+import { useSound } from '../hooks/useSound.ts';
 
 interface CounterDetailProps {
   counter: CounterType;

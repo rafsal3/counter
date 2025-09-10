@@ -1,10 +1,11 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
-import { Counter as CounterType } from './types';
-import { useLocalStorage } from './hooks/useLocalStorage';
-import Counter from './components/Counter';
-import CounterDetail from './components/CounterDetail';
-import SettingsModal from './components/SettingsModal';
-import { AddIcon, MoonIcon, SunIcon } from './components/icons';
+import { Counter as CounterType } from './types.ts';
+import { useLocalStorage } from './hooks/useLocalStorage.ts';
+import Counter from './components/Counter.tsx';
+import CounterDetail from './components/CounterDetail.tsx';
+import SettingsModal from './components/SettingsModal.tsx';
+import { AddIcon, MoonIcon, SunIcon } from './components/icons.tsx';
 
 const App: React.FC = () => {
   const [counters, setCounters] = useLocalStorage<CounterType[]>('counters', []);

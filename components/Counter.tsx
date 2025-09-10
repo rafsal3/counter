@@ -1,7 +1,8 @@
+
 import React from 'react';
-import { Counter as CounterType } from '../types';
-import OdometerDisplay from './OdometerDisplay';
-import { SettingsIcon, TrashIcon } from './icons';
+import { Counter as CounterType } from '../types.ts';
+import OdometerDisplay from './OdometerDisplay.tsx';
+import { SettingsIcon, TrashIcon } from './icons.tsx';
 
 interface CounterProps {
   counter: CounterType;

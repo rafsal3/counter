@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { Counter } from '../types';
-import { CloseIcon } from './icons';
+import { Counter } from '../types.ts';
+import { CloseIcon } from './icons.tsx';
 
 interface SettingsModalProps {
   counter: Counter;
