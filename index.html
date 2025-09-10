@@ -43,6 +43,9 @@
 </head>
   <body class="bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- Load Babel to transpile JSX/TSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Mark the script as babel/module to be transpiled -->
+    <script type="text/babel" data-type="module" src="/index.tsx"></script>
   </body>
 </html>
